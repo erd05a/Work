@@ -1,0 +1,16 @@
+ h1 {
+            color: blue{0, 255, 4};
+            font-size: 50px;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 50px;
+            margin-top: 100px;
+            margin-bottom: 100px; 
+        }
+
+        div {
+            background-image: url("./background.jpeg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }

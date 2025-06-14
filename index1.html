@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Week 2</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        /*
+        Specificity Score
+
+        1. High priority: inline style :                                    score: 1,0,0,0 : 1000
+        2.              : id selector(#title):                            score: 0,1,00 : 100
+        3. class(.highlight), attribute(required), pseudo(:nth-child(2)): score: 0,0,1,0 : 10
+        4. type selector(p, h1, div) :                                      score :0,0,0,1 : 1
+        5. all of combines div>p, score: 0
+        */
+        h1 {
+            color: red;
+            font-size: 50px;
+            text-align: center;
+        }
+        
+        .heading {
+            color: blue:
+            font-size: 20px;   
+        }
+
+        #title {
+            color: green;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="title" class="heading" style="color: purple">Css Basic Title</h1>
+        <h2 id="titleM2">Hello</h2>
+    </div>
+</body>
+</html>
