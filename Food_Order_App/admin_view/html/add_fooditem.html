@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Add Food Item</title>
+        <link rel="stylesheet" href="../css/form.css">
+    </head>
+
+<body>
+        <header class="header"></header>
+        <main class="main">
+            <section class="form-section">
+                <h1>Add Food Item</h1>
+                    <hr>
+
+                <form action="">
+                <div class="form-group">
+                    <label for="category">Food Item Name:</label>
+                    <input type="text" name="food_Item" id="food_item" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="desc">Food Item Description:</label>
+                    <textarea name="desc" class="vertical-resize" id="desc" cols="30" rows="5"></textarea>
+                </div>
+                
+                <div class="form-group form-checkbox">
+                    <label for="is_available">Available?</label>
+                    <input type="checkbox" name="is_available" id="is_available">
+                </div>
+
+                 <div class="form-group form-checkbox">
+                    <label for="is_available">Vegetarian?</label>
+                    <input type="checkbox" name="is_vegetarian" id="is_vegetarian">
+                </div>
+
+                <div class="form-group">
+                    <label for="category">Category:</label>
+                    <select name="category" id="category" multiple>
+                        <option value="PST">Pasta</option>
+                        <option value="PZA">Pizza</option>
+                        <option value="SDW">Sandwhich</option>
+                    </select>
+                </div>
+
+                <div class="form-actions">
+                    <button type="reset" class="btn btn-secondary">Discard</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer"></footer>
+</body>
+
+</html>

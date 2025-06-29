@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Food Items</title>
+    <link rel="stylesheet" href="../css/table.css">
+    <style>
+        img {
+            width: 200px;  
+            height: 200px; 
+            object-fit: cover; 
+        }
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+           padding: 5px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>All Food Items</h1>
+    <hr />
+    <table>
+        <thead>
+            <tr>
+                <th>Food Item No.</th> 
+                <th>Name</th>
+                <th>Description</th>
+                <th>Available?</th>
+                <th>Vegetarian?</th>
+                <th>Category</th>
+                <th>Cuisine</th>
+                <th>Image</th>
+                <th>Edit</th>
+            </tr>    
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Veg Pizza</td> 
+                <td>Veggies include onion, tomato, mushroom etc</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Pizza</td>
+                <td>Italian</td>
+                <td><img src="../imgs/vegpizza.jpeg" alt="veg pizza"/></td>
+                <td>
+                    <button>Edit</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Hot & Sour Soup</td> 
+                <td>Made with ushrooms, tofu, spring onions & chicken</td>
+                <td>Yes</td>
+                <td>No</td>
+                <td>Soup</td>
+                <td>Chinese</td>
+                <td><img src="../imgs/soup.jpeg"  alt="soup"/></td>
+                <td>
+                    <button>Edit</button>
+                </td>
+            <tr>
+                <td>3</td>
+                <td>Lasagna Sandwich</td>
+                <td>Bacon, sour creme, mozzerella chese and whole bread</td>
+                <td>Yes</td>
+                <td>No</td>
+                <td>Sandwich</td>
+                <td>Italian</td>
+                <td><img src="../imgs/lasagnasandwich.jpeg" alt="Sandwhich"/></td>
+                <td>
+                    <button>Edit</button>
+                </td>
+            </tr>    
+        </tbody>
+     </table>   
+</body>
+</html>

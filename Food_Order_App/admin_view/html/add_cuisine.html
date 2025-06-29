@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Add Cuisine</title>
+        <link rel="stylesheet" href="../css/form.css">
+    </head>
+
+        <body>
+        <header class="header"></header>
+        <main class="main">
+            <section class="form-section">
+                <h1>Add Cuisine</h1>
+                    <hr>
+
+                <form action="">
+                <div class="form-group">
+                    <label for="quisine">Cuisine Name:</label>
+                    <input type="text" name="quisine" id="quisine" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="desc">Cuisine  Description:</label>
+                    <textarea name="desc" class="vertical-resize" id="desc" cols="30" rows="5"></textarea>
+                </div>
+                
+                <div class="form-group form-checkbox">
+                    <label for="is_active">Is Active</label>
+                    <input type="checkbox" name="is_active" id="is_active">
+                </div>
+
+                 <div class="form-group">
+                    <label for="cuisimg"Restaurant Image:>Cuisine Image:</label>
+                    <input type="file" name="cuisimg" id="cuisimg">
+                </div>
+
+                <div class="form-actions">
+                    <button type="reset" class="btn btn-secondary">Discard</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer"></footer>
+</body>
+
+</html>
